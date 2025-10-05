@@ -1,0 +1,50 @@
+# --- Python cache & build files ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg
+*.egg-info/
+*.eggs/
+build/
+dist/
+.env
+.venv
+venv/
+ENV/
+env/
+
+# --- IDE / Editor settings ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Test & log files ---
+*.log
+*.tmp
+*.bak
+*.orig
+test.py
+tests/
+coverage/
+.pytest_cache/
+
+# --- Dependency managers ---
+pip-wheel-metadata/
+*.spec
+
+# --- Bytecode & compiled extensions ---
+*.so
+
+# --- Jupyter / Notebooks (if any) ---
+.ipynb_checkpoints/
+
+# --- Fuzzy Expert local build (if it's your own library) ---
+fuzzy_expert_lib/__pycache__/
+fuzzy_expert_lib/*.pyc
