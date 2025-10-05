@@ -1,5 +1,5 @@
-```markdown
-# 🩺 Fuzzy Diabetes Risk Assessment API
+
+### Fuzzy Diabetes Risk Assessment API
 
 A **FastAPI-based** backend that uses a fuzzy expert system to assess diabetes risk based on key physiological and lifestyle factors.
 
@@ -15,8 +15,7 @@ A **FastAPI-based** backend that uses a fuzzy expert system to assess diabetes r
 - Returns a **risk classification** (Low, Moderate, or High)
 
 ## 🧩 Folder Structure
-
-
+```
 backend/
 ├── main.py
 ├── fuzzy_expert_lib/
