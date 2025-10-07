@@ -65,7 +65,7 @@ if __name__ == "__main__":
 
     
     # Assess input
-    crisp_output, classification = fes.assess({'MaskedRegion': 16.6318, 'Variance': 57.6379})
+    crisp_output, classification = fes.assess({'MaskedRegion': 0, 'Variance': 300})
     print("Centroid:", crisp_output)
     print("Classification:", classification)
 
