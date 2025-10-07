@@ -43,8 +43,8 @@ backend/
 ### Response
 ```json
 {
-  "crispValue": 64.32,
-  "classification": "High"
+  "crispValue": 50.00,
+  "classification": "Moderate"
 }
 ```
 
