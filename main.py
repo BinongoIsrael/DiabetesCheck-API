@@ -35,30 +35,30 @@ class Inputs(BaseModel):
 # --- Variable Definitions for Plotting ---
 VARIABLES = {
     "FBS (mg/dL)": {
-        "low": (50, 70, 90),
+         "low": (50, 70, 90),
         "normal": (85, 95, 106),
-        "prediabetic": (99, 110, 125),
+        "prediabetic": (98, 110, 122), 
         "diabetic": (120, 150, 180),
         "range": (50, 200),
     },
     "BMI": {
-        "underweight": (10.0, 15, 18.5),
+        "underweight": (10, 15, 18.5),
         "normal": (17, 22, 24.9),
-        "overweight": (24, 27, 30),
+        "overweight": (23, 26, 30),  
         "obese": (28, 35, 45),
         "range": (10, 45),
     },
     "Age": {
-        "young": (15.0, 25.0, 35.0),
-        "middle": (30.0, 45.0, 55.0),
-        "old": (50.0, 65, 77.0),
-        "very_old": (72.0, 80, 90.0),
+        "young": (15, 25, 35),
+        "middle": (33, 45, 57),  
+        "old": (53, 65, 77),
+        "very_old": (72, 80, 90),
         "range": (15, 90),
     },
     "Physical Activity (mins/week)": {
-        "low":      (0, 40, 80),      
-        "moderate": (60, 110, 170),   
-        "high":     (150, 200, 300),
+        "low": (0, 40, 80),
+        "moderate": (60, 110, 170),
+        "high": (150, 200, 300),
         "range": (0, 300),
     },
     "Risk (Output)": {

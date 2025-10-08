@@ -31,6 +31,7 @@ Thumbs.db
 *.bak
 *.orig
 test.py
+tests.py
 tests/
 coverage/
 .pytest_cache/
