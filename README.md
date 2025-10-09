@@ -58,8 +58,6 @@ backend/
 Below is an example of what `all.ong` looks like when generated:
 
 ![Fuzzy Membership Functions](docs/plot_all_example.png)
-
-
 ---
 
 ## ⚙️ Running Locally
